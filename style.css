@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+ul, li, ol {
+    padding-inline-start: 0px;
+    padding-block-start: 0px;
+    margin-block-start: 0px;
+    margin-inline-start: 0px;
+    list-style: none;
+}
+
+.main {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #003466;
+
+    color: white;
+}
+
+.header-main {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.logo a {
+    vertical-align: middle;
+    color: white;
+    font-size: 25px;
+}
+
+.nav {
+    float: right;
+    width: 50%;
+    height: 50px;
+}
+
+.nav ul {
+    width: 100%;
+    height: 50px;
+}
+
+.nav ul li {
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+}
+
+.nav ul li a {
+    color: lightgrey;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.nav ul li a:hover {
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px 0px;
+
+}
+
+.details {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    font-weight: normal;
+}
+
+.links {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+.links ul {
+    width: 100%;
+    height: 100px;
+
+}
+
+.links ul li {
+    width: 20%;
+
+    float: left;
+    height: 60px;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.links ul li a {
+    color: black;
+    font-size: 25px;
+    line-height: 60px;
+    height: 60px;
+    display: block;
+    vertical-align: middle;
+}
+
+.links ul li a img {
+
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    margin-right: 5%;
+}
+
+.company {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+.company ul {
+    width: 100%;
+    height: 100px;
+
+}
+
+.company ul li {
+    width: 25%;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.company ul li a {
+    color: black;
+    font-size: 25px;
+}
+
+.company ul li a img {
+
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    margin-right: 5%;
+}
+
+.data {
+    width: 100%;
+    height: 200px;
+
+    overflow: auto;
+    border: 1.5px solid #E6E6E6;
+}
+
+.data-title {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.sub-title {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: black;
+}
+
+.link-title {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: black;
+}
+
+.data table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.data table tr {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+
+.data table tr td {
+    border: 1.5px solid #E6E6E6;
+    font-size: 20px;
+    padding: 10px;
+    color: grey;
+}
+
+.data table tr:hover {
+
+    background-color: #F2F2F2;
+}
+
+p {
+    font-size: 20px;
+    text-indent: 2em;
+}
+
+.sub ul {
+    padding: 25px;
+}
+
+.sub ul li {
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.copy {
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    width: 95%;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+}
+
+.btn button {
+    width: 80px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #E6E6E6;
+}
+
+.text textarea {
+    width: 100%;
+    height: 450px;
+    border: none;
+    background-color: #E6E6E6;
+    font-size: 15px;
+    outline: none;
+}
