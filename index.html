@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeXGLUE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header" id="home">
+        <div class="header-main">
+            <div class="logo">
+                <a href="./index.html">CodeXGLUE</a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#info">Info</a>
+                    </li>
+                    <li>
+                        <a href="#leadboard">Leadboard</a>
+                    </li>
+                    <li>
+                        <a href="#submission">Submission</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="main">
+        <div class="title" id="info">
+            Code Trans Ocean
+        </div>
+        <div class="company">
+            <ul>
+                <li><a href=""><img src="./images/ucsb.png" alt="">UCSB</a></li>
+                <li><a href=""><img src="./images/hku.jpg" alt="">HKU</a></li>
+                <li><a href=""><img src="./images/uiuc.jpg" alt="">UIUC</a></li>
+                <li><a href=""><img src="./images/alibaba.png" alt="">Alibaba</a></li>
+
+            </ul>
+        </div>
+        <div class="details">
+            CodeXGLUE stands for General Language Understanding Evaluation benchmark for CODE. It includes 14 datasets
+            for 10 diversified programming language tasks covering code-code (clone detection, defect detection, cloze
+            test, code completion, code refinement, and code-to-code translation), text-code (natural language code
+            search, text-to-code generation), code-text (code summarization) and text-text (documentation translation)
+            scenarios. We provide three baseline models to support these tasks, including BERT-style pre-trained model
+            (i.e. CodeBERT) which is good at understanding problems, GPT-style pre-trained model which we call CodeGPT
+            to support completion and generation problems, and Encoder-Decoder framework that supports
+            sequence-to-sequence generation problems.
+        </div>
+
+        <div class="link-title">
+            Relevant Links
+        </div>
+        <div class="links">
+            <ul>
+                <li> <div style="  border: 1.5px solid black; width: 80%; margin: 0 auto; height: 60px; line-height: 60px;border-radius: 5px;"><a href="https://github.com"><img src="./images/github.svg" alt="">Github</a></div></li>
+                <li><div style="  border: 1.5px solid black; width: 80%; margin: 0 auto; height: 60px; line-height: 60px;border-radius: 5px;"><a href=""><img src="./images/paper.png" alt="">Paper</a></div></li>
+                <li><div style="  border: 1.5px solid black; width: 80%; margin: 0 auto; height: 60px; line-height: 60px;border-radius: 5px;"><a href=""><img src="./images/video.png" alt="">Video</a></div></li>
+                <li><div style="  border: 1.5px solid black; width: 80%; margin: 0 auto; height: 60px; line-height: 60px;border-radius: 5px;"><a href="https://huggingface.co/"><img src="./images/hugging.svg" alt="">Hugging</a></div></li>
+
+            </ul>
+        </div>
+        <div style="clear: both;">
+
+        </div>
+        <div class="data-title" id="leadboard">
+            Data1
+        </div>
+        <div class="data">
+
+            <table>
+                <tr style="background-color: #F2F2F2;">
+                    <td>
+                        Rank
+                    </td>
+                    <td>
+                        Model
+                    </td>
+                    <td>
+                        Organization
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        acc
+                    </td>
+                    <td>
+                        bleu
+                    </td>
+                    <td>
+                        code bleu
+                    </td>
+                    <td>
+                        CSR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="data-title">
+            Data2
+        </div>
+        <div class="data">
+
+            <table>
+                <tr style="background-color: #F2F2F2;">
+                    <td>
+                        Rank
+                    </td>
+                    <td>
+                        Model
+                    </td>
+                    <td>
+                        Organization
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        acc
+                    </td>
+                    <td>
+                        bleu
+                    </td>
+                    <td>
+                        code bleu
+                    </td>
+                    <td>
+                        CSR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="data-title">
+            Data3
+        </div>
+        <div class="data">
+
+            <table>
+                <tr style="background-color: #F2F2F2;">
+                    <td>
+                        Rank
+                    </td>
+                    <td>
+                        Model
+                    </td>
+                    <td>
+                        Organization
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        acc
+                    </td>
+                    <td>
+                        bleu
+                    </td>
+                    <td>
+                        code bleu
+                    </td>
+                    <td>
+                        CSR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="data-title">
+            Data4
+        </div>
+        <div class="data">
+
+            <table>
+                <tr style="background-color: #F2F2F2;">
+                    <td>
+                        Rank
+                    </td>
+                    <td>
+                        Model
+                    </td>
+                    <td>
+                        Organization
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        acc
+                    </td>
+                    <td>
+                        bleu
+                    </td>
+                    <td>
+                        code bleu
+                    </td>
+                    <td>
+                        CSR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="data-title">
+            Data5
+        </div>
+        <div class="data">
+
+            <table>
+                <tr style="background-color: #F2F2F2;">
+                    <td>
+                        Rank
+                    </td>
+                    <td>
+                        Model
+                    </td>
+                    <td>
+                        Organization
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        acc
+                    </td>
+                    <td>
+                        bleu
+                    </td>
+                    <td>
+                        code bleu
+                    </td>
+                    <td>
+                        CSR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+                    <td style="color:skyblue">
+                      ContraBERT_C
+                    </td>
+                    <td>
+                        Annoymous
+                    </td>
+                    <td>
+                        2022-11-17
+                    </td>
+                    <td>
+                     58.76
+                    </td>
+                    <td>
+                        62.53
+                    </td>
+                    <td>
+                        40.28
+                    </td>
+                    <td>
+                        24.21
+                    </td>
+                </tr>
+            </table>
+        </div>
+  <div id="submission" class="sub-title">
+    CodeXGLUE Submission Instructions
+  </div>
+  <div class="sub">
+    <p>
+        Once you have built a model that meets your expectations on evaluation with the dev set, you can submit your test results to get official evaluation on the test set. To ensure the integrity of the official test results, we do not release the correct answers for test set to the public. To submit your model for official evaluation on the test set, follow the below steps:
+      </p>
+      <ul>
+        <li>
+            1. Generate your prediction output for the dev set.
+    
+        </li>
+        <li>
+            2. Run the official evaluation methodologies found in the task specific git repo and verify your systems are running as expected.
+    
+        </li>
+        <li>
+            3. Generate your prediction output for the test set.
+        </li>
+        <li>
+            4. Submit the following information by emailing to codexglue@microsoft.com
+    
+        </li>
+      </ul>
+      <p>
+        Your email should include:
+      </p>
+      <ul>
+        <li>
+            1. Prediction results on test set. <b>[Required] </b>
+
+        </li>
+        <li>
+            2. Prediction results on dev set.  <b>[Recommended]</b>
+
+        </li>
+        <li>
+            3. Individual/Team Name: Name of the individual or the team to appear in the leaderboard. <b>[Required] </b>
+
+        </li>
+        <li>
+            4. Individual/Team Institution: Name of the institution of the individual or the team to appear in the leaderboard. <b>[Optional] </b>
+
+        </li>
+        <li>
+            5. Model code: Training code for the model.  <b>[Recommended]</b>
+
+        </li>
+        <li>
+            6. Model information: Name of the model/technique to appear in the leaderboard.  <b>[Required]</b>
+        </li>
+        <li>
+            7. Paper Information: Name, Citation, URL of the paper if model is from a published work to appear in the leaderboard. <b> [Optional]</b>
+
+        </li>
+      </ul>
+  </div>
+  <div id="submission" class="sub-title">
+    How to cite
+  </div>
+  <div class="copy">
+           <div class="btn">
+             <button onclick="copy()"> copy code</button>
+           </div>
+           <div style="padding: 2.5%;" class="text" >
+            <textarea name="" id="copy" cols="30" rows="10">
+                @article{DBLP:journals/corr/abs-2102-04664,
+                    author = {Shuai Lu and
+                      Daya Guo and
+                      Shuo Ren and
+                      Junjie Huang and
+                      Alexey Svyatkovskiy and
+                      Ambrosio Blanco and
+                      Colin B. Clement and
+                      Dawn Drain and
+                      Daxin Jiang and
+                      Duyu Tang and
+                      Ge Li and
+                      Lidong Zhou and
+                      Linjun Shou and
+                      Long Zhou and
+                      Michele Tufano and
+                      Ming Gong and
+                      Ming Zhou and
+                      Nan Duan and
+                      Neel Sundaresan and
+                      Shao Kun Deng and
+                      Shengyu Fu and
+                      Shujie Liu},
+                    title = {CodeXGLUE: {A} Machine Learning Benchmark Dataset for Code Understanding
+                      and Generation},
+                    journal = {CoRR},
+                    volume = {abs/2102.04664},
+                    year = {2021}
+                  }
+            </textarea>
+           </div>
+           <script type="text/javascript">
+            function copy() {
+                var copy = document.getElementById("copy");
+                copy.select(); 
+                document.execCommand("Copy"); 
+            }
+        </script>
+
+  </div>
+    </div>
+</body>
+
+</html>
